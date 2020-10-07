@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-t = np.arange(0.0, 2.0, 0.01)
-s = 1 + np.sin(2*np.pi*t)
-plt.plot(t, s)
+gen_value = np.arange(0.0, 2.0, 0.01)
+sinval = 1 + np.sin(2*np.pi*gen_value)
+plt.plot(gen_value, sinval)
 
-plt.xlabel('time (s)')
+plt.xlabel('time (sinval)')
 plt.ylabel('voltage (mV)')
-plt.title('About as simple as it gets, folks')
+plt.title('Devops Virtual Summit...github codespace demo')
 plt.grid(True)
 plt.savefig("test.png")
