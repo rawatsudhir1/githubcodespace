@@ -7,6 +7,6 @@ plt.plot(gen_value, sinval)
 
 plt.xlabel('time (sinval)')
 plt.ylabel('voltage (mV)')
-plt.title('Devops Virtual Summit...github codespace demo')
+plt.title('Devops Virtual Summit...github codespace demo1')
 plt.grid(True)
-plt.savefig("test.png")
+plt.savefig("test1.png")
